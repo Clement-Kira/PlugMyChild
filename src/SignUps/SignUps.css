@@ -1,0 +1,5 @@
+.bgImage{
+    background-image: url('../Images/home-bg.jpeg');
+    background-size: cover;
+    width: 100%;
+}

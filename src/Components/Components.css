@@ -1,0 +1,237 @@
+*{
+    color: black;
+    /* background-color: rgb(240, 76, 76); */
+}
+
+/* Home */
+.welcome-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.welcome-container .welcome-message .heading{
+    color: rgb(206, 46, 46);
+    text-shadow: 2px 2px 4px rgb(51, 51, 51);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content .heading{
+    color: rgb(206, 46, 46);
+    text-shadow: 2px 2px 4px rgb(51, 51, 51);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+
+.welcome-message {
+    flex: 1;
+    padding-right: 20px;
+}
+  
+.welcome-message h1 {
+    font-size: 2.5rem;
+    color: rgb(51, 51, 51);
+}
+  
+.welcome-message p {
+    font-size: 1.2rem;
+    color: black;
+}
+  
+.welcome-image {
+    flex: 1;
+    text-align: right;
+}
+  
+.welcome-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* card-comp */
+.card-comp{
+    border: 1px solid rgb(78, 76, 76);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(161, 24, 24);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 250px;
+    display: inline-block;
+    margin-top:25px;
+    margin-left: 25px;
+}
+
+.card-comp .cardImg{
+    max-width: 90%;
+    height: auto;
+    border-radius: 30%;
+    margin-bottom: 10px;
+}
+
+.card-comp .cardTitle{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: rgb(51, 51, 51);
+}
+.card-comp .cardContent{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(77, 77, 77);
+}
+.card-comp span{
+    color: rgb(206, 46, 46);
+    font-weight: bold;
+}
+/* readMore btn*/
+.readMoreBtn {
+    background-color: rgb(214, 60, 60);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.readMoreBtn:hover {
+    background-color: rgb(238, 14, 14);
+}
+
+  
+/* Contacts */
+.contact-form-container .heading{
+    color: rgb(206, 46, 46);
+    text-shadow: 2px 2px 4px rgb(51, 51, 51);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: rgb(218, 97, 88);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* About.css */
+
+.navbar {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(218, 97, 88);
+    color: #fff;
+}
+
+.brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(14, 6, 6);
+}
+
+.navLinks {
+    display: flex;
+    gap: 15px;
+}
+
+.navLink {
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navLink:hover {
+    color: rgb(255, 99, 71); 
+}
+
+.content{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: cursive;
+    font-size: large;
+}
+/* .content h1{
+    color: #333;
+    text-align: center;
+} */
+
+/* contacts */
+.contact-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(192, 11, 11);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(238, 14, 14);
+}
+  
+/* Acticities */
+.containerActivities{
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #ada3a3;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.containerActivities p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1.1rem;
+}
+
+.header{
+    color: rgb(206, 46, 46);
+    text-shadow: 2px 2px 4px rgb(51, 51, 51);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
